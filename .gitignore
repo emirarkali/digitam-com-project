@@ -1,0 +1,20 @@
+# MATLAB
+*.asv
+*.autosave
+*.m~
+slprj/
+codegen/
+
+# Generated results
+data/output/*
+results/figures/*
+results/tables/*
+
+# Keep directories
+!data/output/.gitkeep
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+
+# OS / Editor
+.DS_Store
+.vscode/
